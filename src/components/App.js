@@ -8,7 +8,7 @@ const App = () => {
       {
         list.map((element,index)=>{
           return (
-            <li id={'relativeListItem'+index+1}>{element}</li>
+            <li id={'relativeListItem'+(index+1)}>{element}</li>
           )
         })
       }
